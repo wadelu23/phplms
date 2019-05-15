@@ -1,5 +1,6 @@
 <?php
 session_start();
+// 未登入狀態則跳回登入頁面
 if (!isset($_SESSION["librarian"])) {
     ?>
     <script type="text/javascript">
