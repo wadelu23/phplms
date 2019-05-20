@@ -35,10 +35,11 @@ include "connection.php";
     <section class="login_content">
         <form name="form1" action="" method="post">
             <h1>User Login Form</h1>
-
+            stu1
             <div>
                 <input type="text" name="username" class="form-control" placeholder="Username" required=""/>
             </div>
+            stu1
             <div>
                 <input type="password" name="password" class="form-control" placeholder="Password" required=""/>
             </div>
